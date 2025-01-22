@@ -122,7 +122,7 @@
 
 .t-moment {
 
-padding-bottom: 3rem;
+    padding-bottom: 3rem;
 
 }
 
@@ -161,4 +161,36 @@ padding-bottom: 3rem;
 
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+/* end team */
+
+footer {
+
+    background-color: black;
+    color: white;
+
+    li {
+
+        list-style: none;
+        padding-top: 1rem;
+    }
+}
+
+.space-b{
+
+    justify-content: space-between;
+
+}
+
+hr{
+
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.f-foot {
+
+    width: 70%;
+    margin: auto;
 }
