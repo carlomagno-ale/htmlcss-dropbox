@@ -126,5 +126,39 @@ padding-bottom: 3rem;
 
 }
 
-
 /* end jumbotron*/
+
+/*business*/
+
+.business {
+
+    margin-top: 4rem;
+}
+
+/* end business*/
+
+/* contact */
+
+.contact {
+
+    margin-top: 4rem;
+}
+
+/* end contact */
+
+/*operation*/
+
+.operation {
+
+    margin-top: 4rem;
+}
+
+/* end operation */
+
+/* team */
+
+.team {
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
