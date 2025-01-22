@@ -65,7 +65,6 @@
     color: white;
     padding: 0.4rem 0.7rem;
     text-align: center;
-    text-decoration: none;
 
 }
 
@@ -77,15 +76,55 @@
 
 }
 
-/*header*/
+/* end header*/
+
+/*jumbotron*/
 
 .jumbotron {
 
-    width: 80%;
+    background-color: aqua;
+    font-size: 1.1rem;
+    margin-top: 6rem;
+
+    h1 {
+
+        font-size: 4rem;
+        padding-bottom: 2rem;
+    }
 
     i {
-        color: red;
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+
+    p {
+        padding-bottom: 2rem;
     }
 
 }
+
+.j-color {
+
+    background-color: aqua;
+}
+
+.b-start-free:link,
+.b-start-free:visited {
+
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 70%;
+    padding: 0.4rem 0.7rem;
+    margin: 2rem 0;
+
+}
+
+.t-moment {
+
+padding-bottom: 3rem;
+
+}
+
+
+/* end jumbotron*/
