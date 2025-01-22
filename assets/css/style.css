@@ -12,17 +12,35 @@
 .flex {
 
     display: flex;
+    flex-wrap: wrap;
+
 }
-
-
 
 /* region common */
 
-
-
 .container-menu {
 
-    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.left-menu,
+.right-menu {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    li {
+
+        margin-left: 1rem;
+    }
+}
+
+.right-menu {
+
 
 
 }
@@ -47,4 +65,11 @@
         font-size: 2rem;
     }
 
+}
+
+.logo {
+    
+height: 25px;
+margin-left: 1rem;
+  
 }
