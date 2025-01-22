@@ -1,4 +1,60 @@
-body {
+/*debug*/
 
-    background-color: blanchedalmond;
+* {
+
+    border: dashed 1px;
+}
+
+/*end-debug*/
+
+/* region common */
+
+.flex {
+
+    display: flex;
+}
+
+.container-menu {
+
+    min-height: 85px;
+    width: 100%;
+
+}
+
+/* region common */
+
+nav {
+
+
+
+
+    ul.left-menu,
+    ul.right-menu {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+}
+
+.b-start:link,
+.b-start:visited {
+
+    background-color: blue;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.jumbotron {
+
+    width: 80%;
+
+    i {
+        color: red;
+        font-size: 2rem;
+    }
+
 }
