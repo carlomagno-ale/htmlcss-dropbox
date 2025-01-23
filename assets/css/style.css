@@ -31,10 +31,9 @@
 
 /*header*/
 
-.container-nav {
+header {
 
-width: 99%;
-
+    padding-inline: 1rem;
 }
 
 .container-menu {
@@ -77,8 +76,6 @@ width: 99%;
 .logo {
 
     height: 25px;
-    margin-left: 1rem;
-
 
 }
 
@@ -180,13 +177,13 @@ footer {
     }
 }
 
-.space-b{
+.space-b {
 
     justify-content: space-between;
 
 }
 
-hr{
+hr {
 
     margin-top: 3rem;
     margin-bottom: 1rem;
