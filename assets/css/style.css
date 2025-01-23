@@ -1,9 +1,13 @@
 /*debug*/
 
+/*
+
 * {
 
     border: dashed 1px;
 }
+
+*/
 
 /*end-debug*/
 
@@ -45,6 +49,11 @@
 
     min-height: 900px;
 
+}
+
+.width-600 {
+
+    width: 600px;
 }
 
 .border {
@@ -369,14 +378,28 @@ nav {
 
 /* end operation */
 
-/* team */
 
-.team {
+
+.type-user {
 
     border-top: none;
     border-left: none;
     border-right: none;
 
+}
+
+/* team */
+
+
+.team {
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    h2 {
+
+        font-size: 2.5rem;
+    }
 }
 
 /* end team */
