@@ -127,6 +127,11 @@ nav {
 
 }
 
+.anchor-icon {
+
+    color: var(--dark-color);
+}
+
 /* end header*/
 
 /*jumbotron*/
