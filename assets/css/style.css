@@ -83,12 +83,11 @@
 .jumbotron {
 
     background-color: aqua;
-    font-size: 1.1rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
 
     h1 {
 
-        font-size: 4rem;
+        font-size: 3rem;
         padding-bottom: 2rem;
     }
 
@@ -96,9 +95,7 @@
         font-size: 3rem;
     }
 
-    p {
-        padding-bottom: 2rem;
-    }
+
 
 }
 
