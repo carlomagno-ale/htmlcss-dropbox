@@ -36,6 +36,11 @@ header {
     padding-inline: 1rem;
 }
 
+nav {
+
+    max-height: 85px;
+}
+
 .container-menu {
 
     align-items: center;
@@ -50,12 +55,16 @@ header {
     list-style: none;
     display: flex;
     align-items: center;
+    cursor: pointer;
 
     li {
 
         margin-left: 1rem;
     }
+
 }
+
+
 
 .b-start {
 
