@@ -27,6 +27,20 @@
     align-items: center;
 }
 
+.link-line {
+
+    a:link {
+
+        text-decoration: underline;
+    }
+}
+
+.h-900 {
+
+    min-height: 900px;
+
+}
+
 /* end region common */
 
 /*header*/
@@ -142,7 +156,113 @@ nav {
 .business {
 
     margin-top: 4rem;
+
+    form {
+
+        text-align: center;
+    }
+
 }
+
+.type {
+
+    border: 1px solid grey;
+    font-size: 13px;
+    min-height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+
+    border: 1px solid grey;
+    padding: 2rem;
+
+    hr {
+
+        border-top: solid 1px grey;
+    }
+
+}
+
+.cost {
+
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    h3 {
+
+        font-size: 1.3rem;
+    }
+
+    span {
+
+        font-size: 0.9rem;
+    }
+
+}
+
+.money {
+
+    font-weight: bold;
+
+}
+
+.duration {
+
+    color: grey;
+}
+
+.feature {
+
+    list-style: none;
+
+    li {
+
+        padding-bottom: 1rem;
+    }
+
+}
+
+.b-30-free:link,
+.b-30-free:visited {
+
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 0.4rem 0.7rem;
+    margin: 2rem 0;
+
+}
+
+.feature-plan {
+
+    gap: 2rem;
+    padding-top: 2rem;
+
+    ul {
+
+        list-style: none;
+
+    }
+
+    li {
+
+        padding-bottom: 1rem;
+    }
+
+    li.ok:before {
+
+        content: '\2714';
+        color: blue;
+
+    }
+
+}
+
+
 
 /* end business*/
 
