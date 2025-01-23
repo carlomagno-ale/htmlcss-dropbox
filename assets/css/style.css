@@ -1,6 +1,6 @@
 /*debug*/
 
- *{
+* {
 
     border: dashed 1px;
 }
@@ -26,6 +26,11 @@
 .align-center {
 
     align-items: center;
+}
+
+.margin {
+
+    margin-top: 1rem;
 }
 
 .link-line {
@@ -325,7 +330,7 @@ nav {
     gap: 2rem;
     padding-top: 4rem;
 
-    h3 {
+    h2 {
 
         font-size: 2rem;
     }
@@ -350,6 +355,16 @@ nav {
 .operation {
 
     margin-top: 4rem;
+
+    h2 {
+
+        font-size: 2rem;
+    }
+
+    p {
+
+        padding-top: 1rem;
+    }
 }
 
 /* end operation */
