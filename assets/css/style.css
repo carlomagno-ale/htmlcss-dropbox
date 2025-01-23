@@ -99,8 +99,6 @@ nav {
 
 }
 
-
-
 .b-start {
 
     margin-left: 1rem;
@@ -115,6 +113,11 @@ nav {
     padding: 0.4rem 0.7rem;
     text-align: center;
 
+}
+
+.b-start:hover {
+
+    background-color: var(--button-light);
 }
 
 .logo {
@@ -163,6 +166,11 @@ nav {
 
 }
 
+.b-start-free:hover {
+
+    background-color: var(--button-light);
+}
+
 .t-moment {
 
     padding-bottom: 3rem;
@@ -181,6 +189,11 @@ nav {
     form {
 
         padding: 2rem 0;
+    }
+
+    #annual {
+
+        margin-left: 4rem;
     }
 
     h2 {
@@ -263,6 +276,11 @@ nav {
 
 }
 
+.b-30-free:hover {
+
+    background-color: var(--button-light);
+}
+
 
 .feature-plan {
 
@@ -325,6 +343,10 @@ nav {
         width: 100%;
     }
 
+    .b-contact:hover {
+
+        background-color: var(--button-light);
+    }
 
 }
 
@@ -354,8 +376,14 @@ nav {
     color: var(--dark-color);
     border: solid 1px;
     text-align: center;
-    padding: 0.4rem 0.7rem;
+    padding: 0.5rem 1rem;
 
+}
+
+.b-line:hover {
+
+    background-color: var(--dark-color);
+    color: var(--light-color);
 }
 
 /* end contact */
