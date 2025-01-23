@@ -107,6 +107,13 @@ a:visited {
     margin: 0 -1rem;
 }
 
+.row-margin{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin negativo */
+    margin: 0 0;
+}
+
 .container {
     width: 70%;
     margin: 0 auto;
