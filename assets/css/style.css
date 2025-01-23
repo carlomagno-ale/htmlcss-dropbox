@@ -95,6 +95,13 @@ nav {
     li {
 
         margin-left: 1rem;
+
+    }
+
+    li:hover {
+
+        margin: solid 1px black;
+
     }
 
 }
