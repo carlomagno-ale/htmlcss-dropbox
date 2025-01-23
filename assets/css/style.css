@@ -129,7 +129,7 @@ nav {
 
 .jumbotron {
 
-    background-color: aqua;
+    background-color:var(--jumbo-primary);
     padding-top: 4rem;
 
     h1 {
@@ -146,7 +146,7 @@ nav {
 
 .j-color {
 
-    background-color: aqua;
+    background-color: var(--jumbo-primary);
 }
 
 .b-start-free:link,
