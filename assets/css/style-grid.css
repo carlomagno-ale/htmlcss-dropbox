@@ -3,6 +3,11 @@
 :root {
     --primary-light: white;
     --jumbo-primary: #b4d0e6;
+    --button-primary: #0061fe;
+    --dark-color: black;
+    --light-color: white;
+    --mid-color: grey;  
+
 }
 
 /* end-region-color*/

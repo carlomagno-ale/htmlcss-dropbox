@@ -9,6 +9,8 @@
 
 */
 
+
+
 /*end-debug*/
 
 /* region common */
@@ -110,8 +112,8 @@ nav {
 .b-start:link,
 .b-start:visited {
 
-    background-color: blue;
-    color: white;
+    background-color: var(--button-primary);
+    color: var(--light-color);
     padding: 0.4rem 0.7rem;
     text-align: center;
 
@@ -120,6 +122,7 @@ nav {
 .logo {
 
     height: 25px;
+    margin-right: 1rem;
 
 }
 
@@ -134,7 +137,7 @@ nav {
 
     h1 {
 
-        font-size: 3rem;
+        font-size: 4rem;
         padding-bottom: 2rem;
     }
 
@@ -152,8 +155,8 @@ nav {
 .b-start-free:link,
 .b-start-free:visited {
 
-    background-color: blue;
-    color: white;
+    background-color:var(--button-primary);
+    color: var(--light-color);
     text-align: center;
     display: block;
     width: 70%;
@@ -236,7 +239,7 @@ nav {
 
 .duration {
 
-    color: grey;
+    color: var(--mid-color);
 }
 
 .feature {
@@ -253,8 +256,8 @@ nav {
 .b-30-free:link,
 .b-30-free:visited {
 
-    background-color: blue;
-    color: white;
+    background-color: var(--button-primary);
+    color: var(--light-color);
     text-align: center;
     display: block;
     padding: 0.4rem 0.7rem;
@@ -282,7 +285,7 @@ nav {
     li.ok:before {
 
         content: '\2714';
-        color: blue;
+        color: var(--button-primary);
 
     }
 
@@ -317,8 +320,8 @@ nav {
     .b-contact:link,
     .b-contact:visited {
 
-        background-color: blue;
-        color: white;
+        background-color: var(--button-primary);
+        color: var(--light-color);
         text-align: center;
         padding: 0.4rem 0.7rem;
         width: 100%;
@@ -350,7 +353,7 @@ nav {
 .b-line:visited {
 
     background-color: transparent;
-    color: black;
+    color: var(--dark-color);
     border: solid 1px;
     text-align: center;
     padding: 0.4rem 0.7rem;
@@ -406,8 +409,8 @@ nav {
 
 footer {
 
-    background-color: black;
-    color: white;
+    background-color: var(--dark-color);
+    color: var(--light-color);
 
     li {
 
