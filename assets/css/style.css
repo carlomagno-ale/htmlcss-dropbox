@@ -132,7 +132,7 @@ nav {
 
 .jumbotron {
 
-    background-color:var(--jumbo-primary);
+    background-color: var(--jumbo-primary);
     padding-top: 4rem;
 
     h1 {
@@ -155,7 +155,7 @@ nav {
 .b-start-free:link,
 .b-start-free:visited {
 
-    background-color:var(--button-primary);
+    background-color: var(--button-primary);
     color: var(--light-color);
     text-align: center;
     display: block;
@@ -411,17 +411,34 @@ footer {
 
     background-color: var(--dark-color);
     color: var(--light-color);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 
     li {
 
         list-style: none;
         padding-top: 1rem;
+        font-size: 0.9rem;
     }
+
+    span {
+
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+}
+
+span.language {
+
+    font-weight: 100;
+    font-size: 0.8rem;
+
 }
 
 .space-b {
 
     justify-content: space-between;
+    padding-left: 4rem;
 
 }
 
@@ -429,6 +446,7 @@ hr {
 
     margin-top: 3rem;
     margin-bottom: 1rem;
+    color: var(--mid-color);
 }
 
 .f-foot {
