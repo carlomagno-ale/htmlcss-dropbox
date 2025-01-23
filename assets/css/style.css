@@ -9,8 +9,6 @@
 
 */
 
-
-
 /*end-debug*/
 
 /* region common */
@@ -432,7 +430,7 @@ span.language {
 
     font-weight: 100;
     font-size: 0.8rem;
-
+    color: var(--mid-color);
 }
 
 .space-b {
@@ -454,3 +452,5 @@ hr {
     width: 70%;
     margin: 0 auto;
 }
+
+/* end footer */
